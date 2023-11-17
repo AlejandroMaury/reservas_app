@@ -3,7 +3,7 @@ import Link from "next/link";
 function Nabvar() {
   return (
     <>
-      <nav className="bg-zinc-900 max-w-full text-white py-3 mb-2">
+      <nav className="inset-1 bg-zinc-900 max-w-full text-white py-3 mb-2">
         <div
           className="container ml-10 
          flex justify-between items-center"
@@ -24,6 +24,11 @@ function Nabvar() {
             <li>
               <Link href="/canchas" className="text-sky-500 hover:text-sky-400">
                 Canchas
+              </Link>
+            </li>
+            <li>
+              <Link href="/singUp" className="text-sky-500 hover:text-sky-400">
+                Sing Up
               </Link>
             </li>
             <li>

@@ -1,5 +1,10 @@
+import SignInSide from "@/components/SignInSide";
 function perfil() {
-  return <div>perfil</div>;
+  return (
+    <div>
+      <SignInSide />
+    </div>
+  );
 }
 
 export default perfil;
